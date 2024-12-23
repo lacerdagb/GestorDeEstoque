@@ -102,6 +102,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou
 
 ## 📞 **Contato**
 
-- **LinkedIn**: (www.linkedin.com/in/seuusuario/)
-- **Email**: seuemail@exemplo.com
+- **LinkedIn**: (www.linkedin.com/in/gabriel-lacerda-052a8a293/)
+- **Email**: gblacerda15@gmail.com
+
 
