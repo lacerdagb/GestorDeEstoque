@@ -1,0 +1,7 @@
+C:\Users\Gabriel\OneDrive\Documentos\Estudos\C# 4 Projetos Execicios\GestorDeEstoque\bin\Debug\GestorDeEstoque.exe.config
+C:\Users\Gabriel\OneDrive\Documentos\Estudos\C# 4 Projetos Execicios\GestorDeEstoque\bin\Debug\GestorDeEstoque.exe
+C:\Users\Gabriel\OneDrive\Documentos\Estudos\C# 4 Projetos Execicios\GestorDeEstoque\bin\Debug\GestorDeEstoque.pdb
+C:\Users\Gabriel\OneDrive\Documentos\Estudos\C# 4 Projetos Execicios\GestorDeEstoque\obj\Debug\GestorDeEstoque.csproj.AssemblyReference.cache
+C:\Users\Gabriel\OneDrive\Documentos\Estudos\C# 4 Projetos Execicios\GestorDeEstoque\obj\Debug\GestorDeEstoque.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\OneDrive\Documentos\Estudos\C# 4 Projetos Execicios\GestorDeEstoque\obj\Debug\GestorDeEstoque.exe
+C:\Users\Gabriel\OneDrive\Documentos\Estudos\C# 4 Projetos Execicios\GestorDeEstoque\obj\Debug\GestorDeEstoque.pdb
