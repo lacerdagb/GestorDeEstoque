@@ -1,58 +1,107 @@
-:package: Gestor de Estoque
+# 📋 Gestor de Estoque em C#
 
-:hammer_and_wrench: Projeto de CRUD em C# com POO (Programação Orientada a Objetos)
+Um simples programa de gerenciamento de estoque feito em **C#**, com funcionalidades de adicionar, listar, remover e movimentar produtos. Os dados são salvos em um arquivo para garantir persistência entre execuções. 
 
-Bem-vindo ao Gestor de Estoque! :rocket: Este projeto foi desenvolvido em C# e implementa um sistema simples de gerenciamento de estoque utilizando conceitos de Programação Orientada a Objetos (POO).
+Este projeto é um **CRUD** (Create, Read, Update, Delete) básico para gerenciamento de estoque, utilizando conceitos de **Programação Orientada a Objetos (POO)**.
 
-:clipboard: Funcionalidades
+---
 
-:mag: Listar Produtos - Visualize todos os produtos cadastrados no sistema.
+## 🚀 **Funcionalidades**
 
-:heavy_plus_sign: Adicionar Produtos - Cadastre produtos físicos, ebooks e cursos.
+- 📄 **Listar Produtos**: Visualize todos os produtos cadastrados.
+- ➕ **Adicionar Produtos**: Cadastre produtos físicos, ebooks e cursos.
+- 🗑️ **Remover Produtos**: Apague um produto pelo seu **ID**.
+- 📥 **Registrar Entrada**: Adicione unidades ao estoque de produtos existentes.
+- 📤 **Registrar Saída**: Diminua unidades do estoque.
+- 💾 **Persistência de Dados**: Os dados são salvos em um arquivo binário (**produtos.dat**) para que não se percam quando o programa é fechado.
 
-:x: Remover Produtos - Remova itens do estoque de forma simples.
+---
 
-:inbox_tray: Registrar Entrada - Adicione unidades ao estoque de produtos existentes.
+## 🛠️ **Como Executar o Projeto**
 
-:outbox_tray: Registrar Saída - Diminua unidades do estoque.
+1. **Clone o repositório**:
 
-:stop_button: Sair do Programa - Finalize o sistema de forma segura.
+   ```bash
+   git clone https://github.com/seuusuario/gestor-de-estoque.git
+   ```
 
-:jigsaw: Tecnologias Utilizadas
+2. **Abra o projeto no Visual Studio** ou qualquer outro editor de sua preferência.
 
-C# - Linguagem de programação principal.
+3. **Compile e execute** o projeto:
 
-.NET - Framework utilizado para execução do projeto.
+   ```bash
+   dotnet run
+   ```
 
-POO - Abordagem de Programação Orientada a Objetos.
+---
 
-Serialization - Salva e carrega produtos de forma persistente usando arquivos binários.
+## 🖥️ **Uso do Programa**
 
-:rocket: Como Executar o Projeto
+Quando executar o programa, o seguinte menu será exibido:
 
-Clone o repositório:
+```plaintext
+Sistema de estoque:
+1-Listar
+2-Adicionar
+3-Remover
+4-Registrar entrada
+5-Registrar saída
+6-Sair
+```
 
-  git clone https://github.com/seuusuario/gestor-de-estoque.git
+### 📄 **1. Listar Produtos**
 
-Abra o projeto em um editor C# (Visual Studio recomendado).
+Exibe todos os produtos cadastrados com **ID** e detalhes específicos do produto.
 
-Compile e execute o projeto.
+### ➕ **2. Adicionar Produtos**
 
-:open_file_folder: Estrutura do Projeto
+Solicita as informações do produto e o cadastra no sistema. É possível adicionar produtos físicos, ebooks ou cursos.
 
+### 🗑️ **3. Remover Produtos**
+
+Permite excluir um produto informando seu **ID**.
+
+### 📥 **4. Registrar Entrada**
+
+Adiciona mais unidades ao estoque de um produto.
+
+### 📤 **5. Registrar Saída**
+
+Diminui unidades do estoque de um produto.
+
+### 🚪 **6. Sair**
+
+Salva os dados e encerra o programa.
+
+---
+
+## 📂 **Estrutura do Projeto**
+
+```
 GestorDeEstoque/
 ├── Program.cs       # Arquivo principal que contém o fluxo do sistema.
 ├── ProdutoFisico.cs # Classe que representa produtos físicos.
 ├── Ebook.cs         # Classe que representa ebooks.
 ├── Curso.cs         # Classe que representa cursos.
 └── produtos.dat     # Arquivo binário para salvar os dados.
+```
 
-:label: Classes e Interfaces
+---
 
-IEstoque - Interface base para produtos.
+## 📜 **Licença**
 
-ProdutoFisico - Implementa produtos físicos com frete.
+Este projeto está licenciado sob a **MIT License**.
 
-Ebook - Representa ebooks com autor.
+---
 
-Curso - Cursos online com nome e autor.
+## 🤝 **Contribuições**
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**. 
+
+---
+
+## 📞 **Contato**
+
+- **LinkedIn**: (www.linkedin.com/in/seuusuario/)
+- **Email**: seuemail@exemplo.com
+
