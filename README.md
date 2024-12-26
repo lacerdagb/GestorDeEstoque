@@ -22,7 +22,9 @@ Este projeto é um **CRUD** (Create, Read, Update, Delete) básico para gerencia
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/lacerdagb/gestor-de-estoque.git
+   git clone https://github.com/lacerdagb/GestorDeEstoque.git
+   
+   
    
    ```
 
