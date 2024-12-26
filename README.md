@@ -22,7 +22,8 @@ Este projeto é um **CRUD** (Create, Read, Update, Delete) básico para gerencia
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/seuusuario/gestor-de-estoque.git
+   git clone https://github.com/lacerdagb/gestor-de-estoque.git
+   
    ```
 
 2. **Abra o projeto no Visual Studio** ou qualquer outro editor de sua preferência.
