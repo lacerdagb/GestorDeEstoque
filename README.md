@@ -1,3 +1,5 @@
+
+![GestorDeEstoque](https://github.com/user-attachments/assets/bdad6c75-5aa9-4fea-a3a7-2d2ca1c47211)
 # 📋 Gestor de Estoque em C#
 
 Um simples programa de gerenciamento de estoque feito em **C#**, com funcionalidades de adicionar, listar, remover e movimentar produtos. Os dados são salvos em um arquivo para garantir persistência entre execuções. 
